@@ -3,102 +3,47 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>CV Royer Gomez</title>
+  <title>Royer Gómez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta content="My cv's site" name="description" />
+  <meta content="Royer's resume site. A well-known place to know more about me." name="description" />
 
   <!-- App favicon -->
   <link rel="shortcut icon" href="images/favicon.ico" />
 
-  <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css" />
-  <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css" /> -->
 
   <!-- App css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/icons.css" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css" />
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="css/icons.css" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
 </head>
 
 <body>
-  <nav class="main-wraper mt-0 navbar navbar-expand-lg navbar-dark bg-navbar">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--end navbar-toggler-->
-
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="btn btn-blue btn-sm px-4" href="#" id="lnkPrint"><i class="'uil uil-print mr-2 font-16"></i>Print
-              my CV / save as PDF</a>
-          </li>
-        </ul>
+  <div class="container mx-auto px-4">
+    <section class="text-center mt-12 mb-2 border-b-2 border-black" id="header">
+      <div class="my-2 text-5xl">
+        Royer <strong class="font-medium">Gómez</strong> 
       </div>
-      <!--end collapse-->
-    </div>
-  </nav>
-  <!--end nav-->
-  <div class="main-wraper mt-0">
-    <section class="section-main bg-profile clip-profile" id="header">
-      <div class="zoo-profile">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-print-6 align-self-center mb-3 mb-lg-0">
-              <div class="zoo-profile-main">
-                <div class="zoo-profile-main-pic">
-                  <img src="images/main.jpg" alt="" class="rounded-circle mt-0" />
-                </div>
-                <!--end zoo-profile-main-pic-->
-                <div class="zoo-profile_user-detail">
-                  <h5 class="zoo-user-name">Royer Gomez</h5>
-                  <p class="cd-headline loading-bar">
-                    <span class="cd-words-wrapper no-print">
-                      <b class="is-visible">NodeJs</b>
-                      <b>C/C++</b>
-                      <b>SQL</b>
-                      <b>NextJS</b>
-                      <b>JavaScript</b>
-                      <b>Linux</b>
-                    </span>
-                  </p>
-                </div>
-                <!--end zoo-profile_user-detail-->
-              </div>
-              <!--end profile-main-pic-->
-            </div>
-            <div class="col-sm-4 col-print-4 ml-auto">
-              <ul class="list-unstyled personal-detail print">
-                <li>
-                  <i class="uil uil-github mt-2 mr-2"></i><a class="text-white" target="_blank"
-                    href="https://github.com/mandragora-gub"><b>Github:</b> Mandragora-hub</a>
-                </li>
-                <li>
-                  <i class="'uil uil-phone-volume mr-2"></i><a class="text-white" href="tel:+18298086111"> <b> Tel :</b>
-                    +1 829-808-6111</a>
-                </li>
-                <li>
-                  <i class="uil uil-envelope mt-2 mr-2"></i><a class="text-white"
-                    href="mailto:royer01gomez@gmail.com"><b>Mail :</b> royer01gomez@gmail.com</a>
-                </li>
-                <li><i class="uil uil-location mt-2 mr-2"></i><text class="text-white">Santo Domingo, Dominican Republic
-                  </text></li>
-                <button type="button" class="text-white no-print btn btn-sm btn-soft-primary">
-                  <a target="_blank" class="text-white" href="https://github.com/mandragora-hub">GitHub </a><i
-                    class="uil-github"></i>
-                </button>
-                <button type="button" class="text-white no-print btn btn-sm btn-soft-primary">
-                  <a target="_blank" class="text-white"
-                    href="https://www.linkedin.com/in/royer-gomez-8a21551b7/">LinkedIn </a><i class="uil-linkedin"></i>
-                </button>
-              </ul>
-            </div>
+      <div class="grid grid-cols-3 divide-x">
+          <div>
+            <i class="devicon-github-original mt-2 mr-2"></i><a class="" target="_blank"
+            href="https://github.com/mandragora-gub">Mandragora-hub</a>
           </div>
+        <div>
+            <i class="'uil uil-phone-volume mr-2"></i><a class="" href="tel:+18298086111"> <b> Tel :</b>
+            +1 829-808-6111</a>
+        </div>
+        <div>
+            <i class="uil uil-envelope mt-2 mr-2"></i><a class=""
+            href="mailto:royer01gomez@gmail.com"><b>Mail :</b> royer01gomez@gmail.com</a>
         </div>
       </div>
-      <!--end zoo-profile-->
     </section>
 
     <section class="section-md">
@@ -426,7 +371,7 @@
   </div>
   <!--end main-wraper-->
 
-  <!-- jQuery  -->
+  <!-- jQuery 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="plugins/particles/particles.js"></script>
@@ -436,10 +381,10 @@
   <script src="plugins/filter/isotope.pkgd.min.js"></script>
   <script src="plugins/filter/masonry.pkgd.min.js"></script>
   <script src="plugins/filter/jquery.magnific-popup.min.js"></script>
-  <script src="plugins/particles/particles-init.js"></script>
+  <script src="plugins/particles/particles-init.js"></script> -->
 
   <!-- App js -->
-  <script src="js/app.js"></script>
+  <!-- <script src="js/app.js"></script> -->
 </body>
 
 </html>
