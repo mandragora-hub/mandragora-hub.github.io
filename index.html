@@ -15,10 +15,10 @@
 
   <!-- App css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css" />
+  <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css" /> -->
 
   <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
-  <!-- <link href="css/icons.css" rel="stylesheet" type="text/css" /> -->
+  <link href="css/icons.css" rel="stylesheet" type="text/css" />
   <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -27,12 +27,12 @@
 </head>
 
 <body>
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4 md:px-12 lg:px-32">
     <section class="text-center mt-12 mb-2 border-b-2 border-black" id="header">
       <div class="my-4 text-6xl">
-        Royer <strong class="font-medium">Gómez</strong>
+        Royer <strong class="font-bold">Gómez</strong>
       </div>
-      <div class="grid grid-cols-3 divide-x divide-black mx-auto">
+      <div class="grid grid-cols-3 divide-x w-fit divide-black mx-auto">
         <div>
           <i class="devicon-github-original mt-2 mr-2"></i><a class="" target="_blank"
             href="https://github.com/mandragora-gub">Mandragora-hub</a>
@@ -48,88 +48,14 @@
       </div>
     </section>
 
-    <main class="grid grid-rows-4 grid-flow-row gap-4 mt-8">
-      <section class="flex flex-col gap-y">
-        <h4 class="text-2xl uppercase font-bold mb-1">Skills</h4>
-        <div class="flex">
-          <div class="text-lg uppercase font-bold">Back end development</div>
-          <div class="vl"></div>
-          <div class="mx-1">Java</div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Python
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Express
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            NodeJs
-          </div>
-        </div>
-        <div class="flex">
-          <div class="text-lg uppercase font-bold">Data Pipelines</div>
-          <div class="vl"></div>
-          <div class="mx-1">Amazon Redshifht</div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Amazon EFP
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            S3
-          </div>
-        </div>
-        <div class="flex">
-          <div class="text-lg uppercase font-bold">Miscellaneous</div>
-          <div class="vl"></div>
-          <div class="mx-1">Amazon AWS</div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            recommendations
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Machine Learning
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            MongoDB
-          </div>
-        </div>
-        <div class="flex">
-          <div class="text-lg uppercase font-bold">Front End Development</div>
-          <div class="vl"></div>
-          <div class="mx-1">ReactJs</div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Redux
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            JavaScript
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Html
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            CSS
-          </div>
-        </div>
-        <div class="flex">
-          <div class="text-lg uppercase font-bold">Miscellaneous</div>
-          <div class="vl"></div>
-          <div class="mx-1">Amazon AWS</div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            recommendations
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            Machine Learning
-          </div>
-          <div class="relative before:content-['•'] before:text-center before:mx-1">
-            MongoDB
-          </div>
-        </div>
-      </section>
-
-      <section class="flex flex-col gap-y row-span-3">
-        <h4 class="text-2xl uppercase font-bold mb-1">Experiences</h4>
-        <div class="my-1">
-          <div class="flex items-center">
-            <div class="text-lg uppercase font-bold">Amazon</div>
+    <main class="flex flex-col lg:flex-row gap-8 mt-8">
+      <div class="flex flex-col gap-4 basis-3/4">
+        <section class="flex flex-col gap-y">
+          <h4 class="text-2xl uppercase font-bold mb-1">Skills</h4>
+          <div class="flex">
+            <div class="text-lg uppercase font-bold">Back end development</div>
             <div class="vl"></div>
-            <div class="">Java</div>
+            <div class="mx-1">Java</div>
             <div class="relative before:content-['•'] before:text-center before:mx-1">
               Python
             </div>
@@ -140,142 +66,222 @@
               NodeJs
             </div>
           </div>
-          <div>Software Engineer | Jul 2019 - Present, Seatle, WA</div>
-          <div class="my-1">
-            <a class="underline underline-offset-1">Amazon's Choice recommendations for incomplete missions</a>
-            <ul class="list-disc list-inside">
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </li>
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
-                tincidunt auctor, nullam enim tincidunt urna fermentum.
-              </li>
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Consequat
-                ac nam dictum fringilla ornare suspendisse finibus curae
-                pulvinar. Quam felis ut erat nullam magnis imperdiet odio leo
-                purus. Facilisi lacus eros etiam ultricies ultricies conubia
-                phasellus blandit.
-              </li>
-            </ul>
-          </div>
-          <div class="my-1">
-            <a class="underline underline-offset-1">Amazon's Choice recommendations for incomplete missions</a>
-            <ul class="list-disc list-inside">
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
-                tincidunt auctor, nullam enim tincidunt urna fermentum.
-              </li>
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Consequat
-                ac nam dictum fringilla ornare suspendisse finibus curae
-                pulvinar. Quam felis ut erat nullam magnis imperdiet odio leo
-                purus. Facilisi lacus eros etiam ultricies ultricies conubia
-                phasellus blandit.
-              </li>
-            </ul>
-          </div>
-          <div class="my-1">
-            <a class="underline underline-offset-1">Amazon's Choice recommendations for incomplete missions</a>
-            <ul class="list-disc list-inside">
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
-                tincidunt auctor, nullam enim tincidunt urna fermentum.
-              </li>
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Consequat
-                ac nam dictum fringilla ornare suspendisse finibus curae
-                pulvinar. Quam felis ut erat nullam magnis imperdiet odio leo
-                purus. Facilisi lacus eros etiam ultricies ultricies conubia
-                phasellus blandit.
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="my-1">
-          <div class="flex items-center">
-            <div class="text-lg uppercase font-bold">Media Revolution</div>
+          <div class="flex">
+            <div class="text-lg uppercase font-bold">Data Pipelines</div>
             <div class="vl"></div>
-            <div class="">NodeJs</div>
+            <div class="mx-1">Amazon Redshifht</div>
             <div class="relative before:content-['•'] before:text-center before:mx-1">
-              PostgresSQL
+              Amazon EFP
             </div>
             <div class="relative before:content-['•'] before:text-center before:mx-1">
-              Typescript
-            </div>
-            <div class="relative before:content-['•'] before:text-center before:mx-1">
-              ReactJs
+              S3
             </div>
           </div>
-          <div>Fullstack Developer | Jul 2019 - Oct 2021, Seatle, WA</div>
+          <div class="flex">
+            <div class="text-lg uppercase font-bold">Miscellaneous</div>
+            <div class="vl"></div>
+            <div class="mx-1">Amazon AWS</div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              recommendations
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              Machine Learning
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              MongoDB
+            </div>
+          </div>
+          <div class="flex">
+            <div class="text-lg uppercase font-bold">Front End Development</div>
+            <div class="vl"></div>
+            <div class="mx-1">ReactJs</div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              Redux
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              JavaScript
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              Html
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              CSS
+            </div>
+          </div>
+          <div class="flex">
+            <div class="text-lg uppercase font-bold">Miscellaneous</div>
+            <div class="vl"></div>
+            <div class="mx-1">Amazon AWS</div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              recommendations
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              Machine Learning
+            </div>
+            <div class="relative before:content-['•'] before:text-center before:mx-1">
+              MongoDB
+            </div>
+          </div>
+        </section>
+        <section class="flex flex-col gap-y row-span-3">
+          <h4 class="text-2xl uppercase font-bold mb-1">Experiences</h4>
           <div class="my-1">
-            <ul class="list-disc list-inside">
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
-                tincidunt auctor, nullam enim tincidunt urna fermentum.
-              </li>
-              <li>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
-                tincidunt auctor, nullam enim tincidunt urna fermentum.
-              </li>
-            </ul>
+            <div class="flex items-center">
+              <div class="text-lg uppercase font-bold">Amazon</div>
+              <div class="vl"></div>
+              <div class="">Java</div>
+              <div class="relative before:content-['•'] before:text-center before:mx-1">
+                Python
+              </div>
+              <div class="relative before:content-['•'] before:text-center before:mx-1">
+                Express
+              </div>
+              <div class="relative before:content-['•'] before:text-center before:mx-1">
+                NodeJs
+              </div>
+            </div>
+            <div>Software Engineer | Jul 2019 - Present, Seatle, WA</div>
+            <div class="my-1">
+              <a class="underline underline-offset-1">Amazon's Choice recommendations for incomplete missions</a>
+              <ul class="list-disc list-inside">
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </li>
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
+                  tincidunt auctor, nullam enim tincidunt urna fermentum.
+                </li>
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Consequat
+                  ac nam dictum fringilla ornare suspendisse finibus curae
+                  pulvinar. Quam felis ut erat nullam magnis imperdiet odio leo
+                  purus. Facilisi lacus eros etiam ultricies ultricies conubia
+                  phasellus blandit.
+                </li>
+              </ul>
+            </div>
+            <div class="my-1">
+              <a class="underline underline-offset-1">Amazon's Choice recommendations for incomplete missions</a>
+              <ul class="list-disc list-inside">
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
+                  tincidunt auctor, nullam enim tincidunt urna fermentum.
+                </li>
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Consequat
+                  ac nam dictum fringilla ornare suspendisse finibus curae
+                  pulvinar. Quam felis ut erat nullam magnis imperdiet odio leo
+                  purus. Facilisi lacus eros etiam ultricies ultricies conubia
+                  phasellus blandit.
+                </li>
+              </ul>
+            </div>
+            <div class="my-1">
+              <a class="underline underline-offset-1">Amazon's Choice recommendations for incomplete missions</a>
+              <ul class="list-disc list-inside">
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
+                  tincidunt auctor, nullam enim tincidunt urna fermentum.
+                </li>
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Consequat
+                  ac nam dictum fringilla ornare suspendisse finibus curae
+                  pulvinar. Quam felis ut erat nullam magnis imperdiet odio leo
+                  purus. Facilisi lacus eros etiam ultricies ultricies conubia
+                  phasellus blandit.
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+          <div class="my-1">
+            <div class="flex items-center">
+              <div class="text-lg uppercase font-bold">Media Revolution</div>
+              <div class="vl"></div>
+              <div class="">NodeJs</div>
+              <div class="relative before:content-['•'] before:text-center before:mx-1">
+                PostgresSQL
+              </div>
+              <div class="relative before:content-['•'] before:text-center before:mx-1">
+                Typescript
+              </div>
+              <div class="relative before:content-['•'] before:text-center before:mx-1">
+                ReactJs
+              </div>
+            </div>
+            <div>Fullstack Developer | Jul 2019 - Oct 2021, Seatle, WA</div>
+            <div class="my-1">
+              <ul class="list-disc list-inside">
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
+                  tincidunt auctor, nullam enim tincidunt urna fermentum.
+                </li>
+                <li>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Felis
+                  tincidunt auctor, nullam enim tincidunt urna fermentum.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="flex flex-col gap-4 basis-1/4">
+        <section class="flex flex-col gap-y-2">
+          <h4 class="text-2xl uppercase font-bold">Education</h4>
+          <div>
+            <h6 class="uppercase font-bold">University of illinois urbana champaing (UIUC)</h6>
+            <p>M.S., Mechanical Engineering Dev 2016 | urbana champaing, ILL. GPA: 3.74/4</p>
+          </div>
+          <div>
+            <h6 class="uppercase font-bold">University of illinois urbana champaing (UIUC)</h6>
+            <p>M.S., Mechanical Engineering Dev 2016 | urbana champaing, ILL. GPA: 3.74/4</p>
+          </div>
+        </section>
+        <section class="flex flex-col gap-y-2">
+          <h4 class="text-2xl uppercase font-bold">Honors & Awards</h4>
+          <p>
+            <strong class="uppercase font-bold">Charpak scholarship </strong> | For top 35 exhange stundents from India
+            |
+            French
+            Embassy | 2012 | New Delhi
+          </p>
+          <p>
+            <strong class="uppercase font-bold">Charpak scholarship </strong> | For top 35 exhange stundents from India
+            |
+            French
+            Embassy | 2012 | New Delhi
+          </p>
+          <p>
+            <strong class="uppercase font-bold">Charpak scholarship </strong> | For top 35 exhange stundents from India
+            |
+            French
+            Embassy | 2012 | New Delhi
+          </p>
+        </section>
+        <section class="flex flex-col gap-y-2">
+          <h4 class="text-2xl uppercase font-bold">Coursework</h4>
+          <ul class="list-none">
+            <li>Data Structures and Algorithms</li>
+            <li>Developing Android Apps</li>
+            <li>Machine Learning</li>
+            <li>Data Mining</li>
+            <li>Applied Statistics</li>
+            <li>Linear Algebra</li>
+            <li>Differential Equation</li>
+            <li>Robotics: Mechanical Desing</li>
+          </ul>
+        </section>
+        <section class="flex flex-col gap-y-2">
+          <h4 class="text-2xl uppercase font-bold">Interest</h4>
+          <p>Traveling • Fitness • Nutrition</p>
+        </section>
+      </div>
 
-      <section class="flex flex-col gap-y-2">
-        <h4 class="text-2xl uppercase font-bold">Education</h4>
-        <div>
-          <h6 class="uppercase font-bold">University of illinois urbana champaing (UIUC)</h6>
-          <p>M.S., Mechanical Engineering Dev 2016 | urbana champaing, ILL. GPA: 3.74/4</p>
-        </div>
-        <div>
-          <h6 class="uppercase font-bold">University of illinois urbana champaing (UIUC)</h6>
-          <p>M.S., Mechanical Engineering Dev 2016 | urbana champaing, ILL. GPA: 3.74/4</p>
-        </div>
-      </section>
-      <section class="flex flex-col gap-y-2">
-        <h4 class="text-2xl uppercase font-bold">Honors & Awards</h4>
-        <p>
-          <strong class="uppercase font-bold">Charpak scholarship </strong> | For top 35 exhange stundents from India |
-          French
-          Embassy | 2012 | New Delhi
-        </p>
-        <p>
-          <strong class="uppercase font-bold">Charpak scholarship </strong> | For top 35 exhange stundents from India |
-          French
-          Embassy | 2012 | New Delhi
-        </p>
-        <p>
-          <strong class="uppercase font-bold">Charpak scholarship </strong> | For top 35 exhange stundents from India |
-          French
-          Embassy | 2012 | New Delhi
-        </p>
-      </section>
-      <section class="flex flex-col gap-y-2">
-        <h4 class="text-2xl uppercase font-bold">Coursework</h4>
-        <ul class="list-none">
-          <li>Data Structures and Algorithms</li>
-          <li>Developing Android Apps</li>
-          <li>Machine Learning</li>
-          <li>Data Mining</li>
-          <li>Applied Statistics</li>
-          <li>Linear Algebra</li>
-          <li>Differential Equation</li>
-          <li>Robotics: Mechanical Desing</li>
-        </ul>
-      </section>
-      <section class="flex flex-col gap-y-2">
-        <h4 class="text-2xl uppercase font-bold">Interest</h4>
-        <p>Traveling • Fitness • Nutrition</p>
-      </section>
       <!-- <section class="flex flex-col gap-y">
         <h4 class="text-2xl uppercase font-bold mb-1">Education</h4>
         <h6 class="text-xl uppercase font-bold mb-1">University of illinois urbana champaing (UIUC)</h6>
