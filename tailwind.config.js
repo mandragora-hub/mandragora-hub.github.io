@@ -12,6 +12,9 @@ tailwind = {
       //     'gray': '#8492a6',
       //     'gray-light': '#d3dce6',
       //   },
+      container: {
+        padding: '10rem',
+      },
       fontFamily: {
         sans: ["Lato", "system-ui", "sans-serif"],
         // serif: ["EB Garamond", "serif"],
