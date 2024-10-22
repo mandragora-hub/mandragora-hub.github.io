@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Royer Gómez</title>
+    <title data-i18n="title">Royer Gómez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       content="Royer's resume site. A well-known place to know more about me."
@@ -29,6 +29,7 @@
     <link href="css/icons.css" rel="stylesheet" type="text/css" />
     <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
 
+    <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="tailwind.config.js"></script>
   </head>
@@ -72,61 +73,105 @@
       <main class="flex flex-col lg:flex-row gap-8 mt-8">
         <div class="flex flex-col gap-4 basis-3/4">
           <section class="flex flex-col gap-y">
-            <h4 class="text-2xl uppercase font-bold mb-1">Skills</h4>
+            <h4
+              class="text-2xl uppercase font-bold mb-1"
+              data-i18n="skills.title"
+            >
+              Skills
+            </h4>
             <p class="text-balance">
-              <span class="text-lg uppercase font-bold truncate"
+              <span
+                class="text-lg uppercase font-bold truncate"
+                data-i18n="skills.backend.label"
                 >Back end development</span
               >
-              | Java • Python • Express • NodeJs
+              <span data-i18n="skills.backend.value"
+                >| Java • Python • Express • NodeJs</span
+              >
             </p>
             <p class="text-balance">
-              <span class="text-lg uppercase font-bold truncate">CI/CD</span>
-              | Jenkins • Github Actions • Bash
+              <span
+                class="text-lg uppercase font-bold truncate"
+                data-i18n="skills.ci/cd.label"
+                >CI/CD</span
+              >
+              <span data-i18n="skills.ci/cd.value">
+                | Jenkins • Github Actions • Bash
+              </span>
             </p>
             <p class="text-balance">
-              <span class="text-lg uppercase font-bold truncate"
+              <span
+                class="text-lg uppercase font-bold truncate"
+                data-i18n="skills.miscellaneous.label"
                 >Miscellaneous</span
               >
-              | Azure • MySQL • Machine Learning • MongoDB • Docker
+              <span data-i18n="skills.miscellaneous.value">
+                | Azure • MySQL • Machine Learning • MongoDB • Docker
+              </span>
             </p>
             <p class="text-balance">
-              <span class="text-lg uppercase font-bold truncate"
+              <span
+                class="text-lg uppercase font-bold truncate"
+                data-i18n="skills.scripting.label"
                 >Scripting</span
               >
-              | Bash • Python
+              <span data-i18n="skills.scripting.value">| Bash • Python </span>
             </p>
             <p class="text-balance">
-              <span class="text-lg uppercase font-bold truncate"
+              <span
+                class="text-lg uppercase font-bold truncate"
+                data-i18n="skills.frontend.label"
                 >Front end development</span
               >
-              | ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS
+              <span data-i18n="skills.frontend.value"
+                >| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS
+              </span>
             </p>
             <p class="text-balance">
-              <span class="text-lg uppercase font-bold">Soft Skill</span> | Team
-              player • Bias for action • Deliver results
+              <span
+                class="text-lg uppercase font-bold"
+                data-i18n="skills.soft.label"
+                >Soft Skill</span
+              >
+              <span data-i18n="skills.soft.value">
+                | Team player • Bias for action • Deliver results
+              </span>
             </p>
           </section>
           <section class="flex flex-col gap-y row-span-3">
-            <h4 class="text-2xl uppercase font-bold mb-1">Experiences</h4>
+            <h4
+              class="text-2xl uppercase font-bold mb-1"
+              data-i18n="experiences.title"
+            >
+              Experiences
+            </h4>
             <div class="my-1">
               <p class="font-bold text-balance">
-                <span class="text-lg uppercase truncate"
+                <span
+                  class="text-lg uppercase truncate"
+                  data-i18n="experiences.job2.company"
                   >Ministry of Finance</span
                 >
-                | Java • Jenkins • VueJs • Nginx * Docker
+                <span data-i18n="experiences.job2.skills">
+                  | Java • Jenkins • VueJs • Nginx * Docker
+                </span>
               </p>
-              <div>Devops Engineer | Oct 2021 - Present, Santo Domingo, RD</div>
+              <div data-i18n="experiences.job2.role">
+                Devops Engineer | Oct 2021 - Present, Santo Domingo, RD
+              </div>
               <div class="my-1">
-                <a class="underline underline-offset-1"
+                <a
+                  class="underline underline-offset-1"
+                  data-i18n="experiences.job2.exp.1.label"
                   >Process automation, CI/CD structure and reducing errors</a
                 >
                 <ul class="list-disc list-inside">
-                  <li>
+                  <li data-i18n="experiences.job2.exp.1.content1">
                     We have worked hand in hand with the development team and
                     the IT Infrastructure team in defining the CI/CD processes
                     and in the general understanding of engineering and coding.
                   </li>
-                  <li>
+                  <li data-i18n="experiences.job2.exp.1.content2">
                     We improved the implementation of the existing DevOps
                     strategy, thus reducing resource consumption and
                     significantly improving deployment time. We moved from a
@@ -134,7 +179,7 @@
                     processes, which resulted in a better understanding by the
                     technical staff.
                   </li>
-                  <li>
+                  <li data-i18n="experiences.job2.exp.1.content3">
                     We implemented the build, test and deployment processes
                     using Jenkins and Docker, which allowed us an orderly
                     continuous delivery and greater agility.
@@ -142,16 +187,20 @@
                 </ul>
               </div>
               <div class="my-1">
-                <a class="underline underline-offset-1">Culture change </a>
+                <a
+                  class="underline underline-offset-1"
+                  data-i18n="experiences.job2.exp.2.label"
+                  >Culture change</a
+                >
                 <ul class="list-disc list-inside">
-                  <li>
+                  <li data-i18n="experiences.job2.exp.2.content1">
                     We introduced the staff to the devops culture which involved
                     a better understanding of individual responsibilities and
                     the organizational structure. In addition, we instructed the
                     staff through workshops on topics related to the devops
                     culture.
                   </li>
-                  <li>
+                  <li data-i18n="experiences.job2.exp.2.content2">
                     We created different internal products that aimed to assist
                     developers and analysts in their technical tasks. Many of
                     the products were aimed at guiding IT staff in their daily
@@ -160,25 +209,27 @@
                     and allowing greater oversight of systems deployed in the
                     development and test environment.
                   </li>
-                  <li>
+                  <li data-i18n="experiences.job2.exp.2.content3">
                     Creating custom scripts and tools to automate repetitive
                     tasks and free up time for higher value activities.
                   </li>
                 </ul>
               </div>
               <div class="my-1">
-                <a class="underline underline-offset-1"
+                <a
+                  class="underline underline-offset-1"
+                  data-i18n="experiences.job2.exp.3.label"
                   >Support in other areas</a
                 >
                 <ul class="list-disc list-inside">
-                  <li>
+                  <li data-i18n="experiences.job2.exp.3.content1">
                     I also had an important role as a Frontend Developer,
                     responsible for designing and developing highly interactive
                     user interfaces using Vue.js. I worked closely with Backend
                     teams, developed in Java, to create scalable and robust web
                     applications.
                   </li>
-                  <li>
+                  <li data-i18n="experiences.job2.exp.3.content2">
                     Our work methodology was based on Scrum, which allowed us to
                     deliver value incrementally and adapt to changes in an agile
                     way. We used Jira to manage the product backlog, track tasks
@@ -189,20 +240,20 @@
             </div>
             <div class="my-1">
               <p class="text-balance">
-                <span class="text-lg uppercase font-bold truncate">
+                <span class="text-lg uppercase font-bold truncate" data-i18n="experiences.job1.company">
                   Media Revolution
                 </span>
-                | NodeJs • PostgresSQL • Typescript • ReactJs
+                <span data-i18n="experiences.job1.skills">| NodeJs • PostgresSQL • Typescript • ReactJs</span>
               </p>
-              <div>Fullstack Developer | Jul 2019 - Oct 2021, Seatle, WA</div>
+              <div data-i18n="experiences.job1.role">Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD</div>
               <div class="my-1">
                 <ul class="list-disc list-inside">
-                  <li>
+                  <li data-i18n="experiences.job1.exp.1.content1">
                     Develop server-side logic using programming languages such
                     as JavaScript and Typescript, PostgresSQL database and
                     GraphQL.
                   </li>
-                  <li>Develop user interfaces using ReactJS.</li>
+                  <li data-i18n="experiences.job1.exp.1.content2">Develop user interfaces using ReactJS.</li>
                 </ul>
               </div>
             </div>
@@ -279,5 +330,8 @@
         </div>
       </main>
     </div>
+
+    <!-- App.Js -->
+    <script type="module" src="js/app.js"></script>
   </body>
 </html>
