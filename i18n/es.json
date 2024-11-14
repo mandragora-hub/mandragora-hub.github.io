@@ -1,9 +1,9 @@
 {
   "title": "Royer Gómez",
   "skills": {
-    "title": "skills",
+    "title": "Habilidades",
     "backend": {
-      "label": "Back end development",
+      "label": "Desarrollo backend",
       "value": "| Java • Python • Express • NodeJs"
     },
     "ci/cd": {
@@ -11,7 +11,7 @@
       "value": "| Jenkins • Github Actions • Bash"
     },
     "miscellaneous": {
-      "label": "Miscellaneous",
+      "label": "Misceláneos",
       "value": "| Azure • MySQL • Machine Learning • MongoDB • Docker"
     },
     "scripting": {
@@ -19,50 +19,71 @@
       "value": "| Bash • Python"
     },
     "frontend": {
-      "label": "Front end development",
+      "label": "Desarrollo frontend",
       "value": "| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS"
     },
     "soft": {
-      "label": "Soft Skill",
+      "label": "Habilidades blandas",
       "value": "| Team player • Bias for action • Deliver results"
     }
   },
   "experiences": {
-    "title": "Experiences",
+    "title": "Experiencia",
     "job2": {
-      "company": "Ministry of Finance",
+      "company": "Ministerio de hacienda",
       "skills": "| Java • Jenkins • VueJs • Nginx * Docker",
       "role": "Devops Engineer | Oct 2021 - Present, Santo Domingo, RD",
       "exp": {
         "1": {
-          "label": "Process automation, CI/CD structure and reducing errors",
-          "content1": "We have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
-          "content2": "We improved the implementation of the existing DevOps strategy, thus reducing resource consumption and significantly improving deployment time. We moved from a monolithic strategy to a comprehensive strategy for CI/CD processes, which resulted in a better understanding by the technical staff.",
-          "content3": "We implemented the build, test and deployment processes using Jenkins and Docker, which allowed us an orderly continuous delivery and greater agility."
+          "label": "Automatización de procesos, estructura CI/CD y reducción de errores",
+          "content1": "Hemos trabajado de la mano con el equipo de desarrollo y el equipo de Infraestructura de TI en la definición de los procesos de CI/CD y en la comprensión general de la ingeniería y la codificación.",
+          "content2": "Mejoramos la implementación de la estrategia DevOps existente, reduciendo así el consumo de recursos y mejorando significativamente el tiempo de implementación. Pasamos de una estrategia monolítica a una estrategia integral para los procesos de CI/CD, lo que resultó en una mejor comprensión por parte del personal técnico.",
+          "content3": "Implementamos los procesos de build, test y deployment utilizando Jenkins y Docker, lo que nos permitió una entrega continua ordenada y mayor agilidad."
         },
         "2": {
-          "label": "Culture change",
-          "content1": "We introduced the staff to the devops culture which involved a better understanding of individual responsibilities and the organizational structure. In addition, we instructed the staff through workshops on topics related to the devops culture.",
-          "content2": "We created different internal products that aimed to assist developers and analysts in their technical tasks. Many of the products were aimed at guiding IT staff in their daily tasks, giving them more independence from bureaucratic processes, making application CI/CD processes transparent and allowing greater oversight of systems deployed in the development and test environment.",
-          "content3": "Creating custom scripts and tools to automate repetitive tasks and free up time for higher value activities."
+          "label": "Cambios culturales",
+          "content1": "Presentamos al personal la cultura de DevOps, lo que implicó una mejor comprensión de las responsabilidades individuales y la estructura organizacional. Además, instruimos al personal mediante talleres sobre temas relacionados con la cultura de DevOps.",
+          "content2": "Creamos diferentes productos internos que tenían como objetivo ayudar a los desarrolladores y analistas en sus tareas técnicas. Muchos de los productos tenían como objetivo guiar al personal de TI en sus tareas diarias, dándoles más independencia de los procesos burocráticos, haciendo transparentes los procesos de CI/CD de las aplicaciones y permitiendo una mayor supervisión de los sistemas implementados en el entorno de desarrollo y pruebas.",
+          "content3": "Creación de scripts y herramientas personalizados para automatizar tareas repetitivas y liberar tiempo para actividades de mayor valor."
         },
         "3": {
-          "label": "Support in other areas",
-          "content1": "I also had an important role as a Frontend Developer, responsible for designing and developing highly interactive user interfaces using Vue.js. I worked closely with Backend teams, developed in Java, to create scalable and robust web applications.",
-          "content2": "Our work methodology was based on Scrum, which allowed us to deliver value incrementally and adapt to changes in an agile way. We used Jira to manage the product backlog, track tasks and collaborate effectively within the team."
+          "label": "Aportes en otras areas",
+          "content1": "También tuve un rol importante como Frontend Developer, responsable de diseñar y desarrollar interfaces de usuario altamente interactivas utilizando Vue.js. Trabajé en estrecha colaboración con equipos de Backend, desarrollados en Java, para crear aplicaciones web escalables y robustas.",
+          "content2": "Nuestra metodología de trabajo se basó en Scrum, lo que nos permitió entregar valor de manera incremental y adaptarnos a los cambios de manera ágil. Utilizamos Jira para gestionar el product backlog, hacer seguimiento de las tareas y colaborar de manera efectiva dentro del equipo."
+        }
+      },
+      "job1": {
+        "company": "Media Revolution",
+        "skills": "| NodeJs • PostgresSQL • Typescript • ReactJs",
+        "role": "Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD",
+        "exp": {
+          "1": {
+            "content1": "Hemos trabajado de la mano con el equipo de desarrollo y el equipo de Infraestructura TI en la definición de los procesos de CI/CD y en el entendimiento general de la ingeniería y codificación.",
+            "content2": "Mejoramos la implementación de la estrategia DevOps existente, reduciendo así el consumo de recursos y mejorando significativamente el tiempo de implementación. Pasamos de una estrategia monolítica a una estrategia integral de procesos de CI/CD, lo que resultó en un mejor entendimiento por parte del personal técnico"
+          }
         }
       }
     },
-    "job1": {
-      "company": "Media Revolution",
-      "skills": "| NodeJs • PostgresSQL • Typescript • ReactJs",
-      "role": "Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD",
-      "exp": {
-        "1": {
-          "content1": "We have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
-          "content2": "We improved the implementation of the existing DevOps strategy, thus reducing resource consumption and significantly improving deployment time. We moved from a monolithic strategy to a comprehensive strategy for CI/CD processes, which resulted in a better understanding by the technical staff."
-        }
+    "education": {
+      "title": "Educación",
+      "1": {
+        "institution": "Universidad Acción Pro Educación y Cultura (UNAPEC)",
+        "mode": "B.S.Software Engineering | Santo Domingo, RD."
       }
+    },
+    "coursework": {
+      "title": "Trabajo de curso",
+      "Data Structures and Algorithms": "Data Structures and Algorithms",
+      "Developing Android Apps": "Developing Android Apps",
+      "Machine Learning": "Machine Learning",
+      "Data Mining": "Data Mining",
+      "Applied Statistics": "Applied Statistics",
+      "Linear Algebra": "Linear Algebra",
+      "Differential Equation": "Differential Equation"
+    },
+    "interest": {
+      "title": "Intereses",
+      "value": "Viajar • Fitness • Nutrición"
     }
   }
 }

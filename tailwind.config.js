@@ -13,7 +13,7 @@ tailwind = {
       //     'gray-light': '#d3dce6',
       //   },
       container: {
-        padding: '10rem',
+        padding: "10rem",
       },
       fontFamily: {
         sans: ["Lato", "system-ui", "sans-serif"],
@@ -27,7 +27,10 @@ tailwind = {
         borderRadius: {
           "4xl": "2rem",
         },
+        screens: {
+          print: { raw: "print" },
+        },
       },
-    }
-  }
-}
+    },
+  },
+};

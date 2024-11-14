@@ -4,26 +4,16 @@
     <meta charset="utf-8" />
     <title data-i18n="title">Royer Gómez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      content="Royer's resume site. A well-known place to know more about me."
-      name="description"
-    />
+    <meta content="Royer's resume site. A well-known place to know more about me." name="description" />
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
 
-    <!-- <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css" /> -->
-    <!-- <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css" /> -->
-
     <!-- App css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
 
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="css/icons.css" rel="stylesheet" type="text/css" />
@@ -35,225 +25,106 @@
   </head>
 
   <body>
-    <div
-      class="lg:container mx-auto px-4 flex w-full flex-wrap items-center justify-between overflow-hidden"
-    >
-      <section
-        class="w-full text-center mt-12 mb-2 border-b-2 border-black"
-        id="header"
-      >
-        <div class="my-4 text-6xl">
-          Royer <strong class="font-bold">Gómez</strong>
-        </div>
+    <div class="lg:container mx-auto px-4 flex w-full flex-wrap items-center justify-between overflow-hidden">
+      <section class="w-full text-center mt-12 mb-2 print:m-0 border-b-2 border-black" id="header">
+        <div class="my-4 text-6xl print:text-4xl">Royer <strong class="font-bold">Gómez</strong></div>
         <div class="grid sm:grid-cols-3 sm:divide-x divide-black w-fit mx-auto">
-          <div>
-            <i class="devicon-github-original mt-2 mr-2"></i
-            ><a
-              class=""
-              target="_blank"
-              href="https://github.com/mandragora-gub"
-              >Mandragora-hub</a
-            >
+          <div class="text-nowrap m-px">
+            <i class="devicon-github-original mr-2"></i
+            ><a target="_blank" href="https://github.com/mandragora-gub">Mandragora-hub</a>
           </div>
-          <div>
+          <div class="text-nowrap m-px">
             <i class="'uil uil-phone-volume mr-2"></i
-            ><a class="" href="tel:+18298086111">
-              <b> Tel :</b> +1 829-808-6111</a
-            >
+            ><a href="tel:+18298086111"> <b> Tel :</b> +1 829-808-6111</a>
           </div>
-          <div>
-            <i class="uil uil-envelope mt-2 mr-2"></i
-            ><a class="" href="mailto:royer01gomez@gmail.com"
-              ><b>Mail :</b> royer01gomez@gmail.com</a
-            >
+          <div class="text-nowrap m-px">
+            <i class="uil uil-envelope ml-2 mr-2"></i
+            ><a href="mailto:royer01gomez@gmail.com"><b>Mail :</b  class="truncate">royer01gomez@gmail.com</a>
           </div>
         </div>
       </section>
 
-      <main class="flex flex-col lg:flex-row gap-8 mt-8">
+      <main class="flex flex-col print:flex-row lg:flex-row gap-8 mt-8">
         <div class="flex flex-col gap-4 basis-3/4">
           <section class="flex flex-col gap-y">
-            <h4
-              class="text-2xl uppercase font-bold mb-1"
-              data-i18n="skills.title"
-            >
-              Skills
-            </h4>
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold mb-1" data-i18n="skills.title">Skills</h4>
             <p class="text-balance">
-              <span
-                class="text-lg uppercase font-bold truncate"
-                data-i18n="skills.backend.label"
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.backend.label"
                 >Back end development</span
               >
-              <span data-i18n="skills.backend.value"
-                >| Java • Python • Express • NodeJs</span
-              >
+              <span class="print:text-xs">| Java • Python • Express • NodeJs</span>
             </p>
             <p class="text-balance">
-              <span
-                class="text-lg uppercase font-bold truncate"
-                data-i18n="skills.ci/cd.label"
-                >CI/CD</span
-              >
-              <span data-i18n="skills.ci/cd.value">
-                | Jenkins • Github Actions • Bash
-              </span>
+              <span class="text-lg print:text-sm uppercase font-bold truncate">CI/CD</span>
+              <span class="print:text-xs"> | Jenkins • Github Actions • Bash </span>
             </p>
             <p class="text-balance">
-              <span
-                class="text-lg uppercase font-bold truncate"
-                data-i18n="skills.miscellaneous.label"
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.miscellaneous.label"
                 >Miscellaneous</span
               >
-              <span data-i18n="skills.miscellaneous.value">
-                | Azure • MySQL • Machine Learning • MongoDB • Docker
-              </span>
+              <span class="print:text-xs"> | Azure • MySQL • Machine Learning • MongoDB • Docker </span>
             </p>
             <p class="text-balance">
-              <span
-                class="text-lg uppercase font-bold truncate"
-                data-i18n="skills.scripting.label"
-                >Scripting</span
-              >
-              <span data-i18n="skills.scripting.value">| Bash • Python </span>
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.scripting.label">Scripting</span>
+              <span class="print:text-xs">| Bash • Python </span>
             </p>
             <p class="text-balance">
-              <span
-                class="text-lg uppercase font-bold truncate"
-                data-i18n="skills.frontend.label"
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.frontend.label"
                 >Front end development</span
               >
-              <span data-i18n="skills.frontend.value"
-                >| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS
-              </span>
+              <span class="print:text-xs">| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS </span>
             </p>
             <p class="text-balance">
-              <span
-                class="text-lg uppercase font-bold"
-                data-i18n="skills.soft.label"
-                >Soft Skill</span
-              >
-              <span data-i18n="skills.soft.value">
-                | Team player • Bias for action • Deliver results
-              </span>
+              <span class="text-lg print:text-sm uppercase font-bold" data-i18n="skills.soft.label">Soft Skill</span>
+              <span class="print:text-xs" data-i18n="skills.soft.value"> | Team player • Bias for action • Deliver results </span>
             </p>
           </section>
           <section class="flex flex-col gap-y row-span-3">
-            <h4
-              class="text-2xl uppercase font-bold mb-1"
-              data-i18n="experiences.title"
-            >
-              Experiences
-            </h4>
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold mb-1" data-i18n="experiences.title">Experiences</h4>
             <div class="my-1">
               <p class="font-bold text-balance">
-                <span
-                  class="text-lg uppercase truncate"
-                  data-i18n="experiences.job2.company"
-                  >Ministry of Finance</span
-                >
-                <span data-i18n="experiences.job2.skills">
-                  | Java • Jenkins • VueJs • Nginx * Docker
-                </span>
+                <span class="text-lg print:text-sm uppercase truncate" data-i18n="experiences.job2.company">Ministry of Finance</span>
+                <span> | Java • Jenkins • VueJs • Nginx * Docker </span>
               </p>
-              <div data-i18n="experiences.job2.role">
-                Devops Engineer | Oct 2021 - Present, Santo Domingo, RD
-              </div>
+              <div data-i18n="experiences.job2.role">Devops Engineer | Oct 2021 - Present, Santo Domingo, RD</div>
               <div class="my-1">
-                <a
-                  class="underline underline-offset-1"
-                  data-i18n="experiences.job2.exp.1.label"
+                <a class="underline underline-offset-1" data-i18n="experiences.job2.exp.1.label"
                   >Process automation, CI/CD structure and reducing errors</a
                 >
                 <ul class="list-disc list-inside">
-                  <li data-i18n="experiences.job2.exp.1.content1">
-                    We have worked hand in hand with the development team and
-                    the IT Infrastructure team in defining the CI/CD processes
-                    and in the general understanding of engineering and coding.
-                  </li>
-                  <li data-i18n="experiences.job2.exp.1.content2">
-                    We improved the implementation of the existing DevOps
-                    strategy, thus reducing resource consumption and
-                    significantly improving deployment time. We moved from a
-                    monolithic strategy to a comprehensive strategy for CI/CD
-                    processes, which resulted in a better understanding by the
-                    technical staff.
-                  </li>
-                  <li data-i18n="experiences.job2.exp.1.content3">
-                    We implemented the build, test and deployment processes
-                    using Jenkins and Docker, which allowed us an orderly
-                    continuous delivery and greater agility.
-                  </li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.1.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.1.content2"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.1.content3"></li>
                 </ul>
               </div>
               <div class="my-1">
-                <a
-                  class="underline underline-offset-1"
-                  data-i18n="experiences.job2.exp.2.label"
-                  >Culture change</a
-                >
+                <a class="underline underline-offset-1" data-i18n="experiences.job2.exp.2.label">Culture change</a>
                 <ul class="list-disc list-inside">
-                  <li data-i18n="experiences.job2.exp.2.content1">
-                    We introduced the staff to the devops culture which involved
-                    a better understanding of individual responsibilities and
-                    the organizational structure. In addition, we instructed the
-                    staff through workshops on topics related to the devops
-                    culture.
-                  </li>
-                  <li data-i18n="experiences.job2.exp.2.content2">
-                    We created different internal products that aimed to assist
-                    developers and analysts in their technical tasks. Many of
-                    the products were aimed at guiding IT staff in their daily
-                    tasks, giving them more independence from bureaucratic
-                    processes, making application CI/CD processes transparent
-                    and allowing greater oversight of systems deployed in the
-                    development and test environment.
-                  </li>
-                  <li data-i18n="experiences.job2.exp.2.content3">
-                    Creating custom scripts and tools to automate repetitive
-                    tasks and free up time for higher value activities.
-                  </li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.2.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.2.content2"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.2.content3"></li>
                 </ul>
               </div>
-              <div class="my-1">
-                <a
-                  class="underline underline-offset-1"
-                  data-i18n="experiences.job2.exp.3.label"
+              <!-- <div class="my-1">
+                <a class="underline underline-offset-1" data-i18n="experiences.job2.exp.3.label"
                   >Support in other areas</a
                 >
                 <ul class="list-disc list-inside">
-                  <li data-i18n="experiences.job2.exp.3.content1">
-                    I also had an important role as a Frontend Developer,
-                    responsible for designing and developing highly interactive
-                    user interfaces using Vue.js. I worked closely with Backend
-                    teams, developed in Java, to create scalable and robust web
-                    applications.
-                  </li>
-                  <li data-i18n="experiences.job2.exp.3.content2">
-                    Our work methodology was based on Scrum, which allowed us to
-                    deliver value incrementally and adapt to changes in an agile
-                    way. We used Jira to manage the product backlog, track tasks
-                    and collaborate effectively within the team.
-                  </li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.3.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.3.content2"></li>
                 </ul>
-              </div>
+              </div> -->
             </div>
             <div class="my-1">
               <p class="text-balance">
-                <span class="text-lg uppercase font-bold truncate" data-i18n="experiences.job1.company">
-                  Media Revolution
-                </span>
-                <span data-i18n="experiences.job1.skills">| NodeJs • PostgresSQL • Typescript • ReactJs</span>
+                <span class="text-lg print:text-sm uppercase font-bold truncate">Media Revolution </span>
+                <span>| NodeJs • PostgresSQL • Typescript • ReactJs</span>
               </p>
-              <div data-i18n="experiences.job1.role">Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD</div>
+              <div>Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD</div>
               <div class="my-1">
                 <ul class="list-disc list-inside">
-                  <li data-i18n="experiences.job1.exp.1.content1">
-                    Develop server-side logic using programming languages such
-                    as JavaScript and Typescript, PostgresSQL database and
-                    GraphQL.
-                  </li>
-                  <li data-i18n="experiences.job1.exp.1.content2">Develop user interfaces using ReactJS.</li>
+                  <li class="print:text-xs" data-i18n="experiences.job1.exp.1.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job1.exp.1.content2"></li>
                 </ul>
               </div>
             </div>
@@ -261,25 +132,14 @@
         </div>
         <div class="flex flex-col gap-4 basis-1/4">
           <section class="flex flex-col gap-y-2">
-            <h4 class="text-2xl uppercase font-bold">Education</h4>
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold" data-i18n="education.title">Education</h4>
             <div>
-              <h6 class="uppercase font-bold">
-                Universidad Acción Pro Educación y Cultura (UNAPEC)
-              </h6>
-              <p>B.S.Software Engineering | Santo Domingo, RD.</p>
+              <h6 class="uppercase font-bold print:text-sm">Universidad Acción Pro Educación y Cultura (UNAPEC)</h6>
+              <p class="print:text-sm">B.S.Software Engineering | Santo Domingo, RD.</p>
             </div>
-            <!-- <div>
-              <h6 class="uppercase font-bold">
-                University of illinois urbana champaing (UIUC)
-              </h6>
-              <p>
-                M.S., Mechanical Engineering Dev 2016 | urbana champaing, ILL.
-                GPA: 3.74/4
-              </p>
-            </div> -->
           </section>
-          <section class="flex flex-col gap-y-2">
-            <h4 class="text-2xl uppercase font-bold">Certification</h4>
+          <!-- <section class="flex flex-col gap-y-2">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold">Certification</h4>
             <a
               class="hover:text-blue-900 hover:underline"
               target="_blank"
@@ -310,10 +170,10 @@
                 | Introduction to Web Development: HTML and CSS. | 2021 | Online
               </p>
             </a>
-          </section>
+          </section> -->
           <section class="flex flex-col gap-y-2">
-            <h4 class="text-2xl uppercase font-bold">Coursework</h4>
-            <ul class="list-none">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold" data-i18n="coursework.title">Coursework</h4>
+            <ul class="list-none print:text-sm">
               <li>Data Structures and Algorithms</li>
               <li>Developing Android Apps</li>
               <li>Machine Learning</li>
@@ -324,8 +184,8 @@
             </ul>
           </section>
           <section class="flex flex-col gap-y-2">
-            <h4 class="text-2xl uppercase font-bold">Interest</h4>
-            <p>Traveling • Fitness • Nutrition</p>
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold" data-i18n="interest.title">Interest</h4>
+            <p class="print:text-sm" data-i18n="interest.value">Traveling • Fitness • Nutrition</p>
           </section>
         </div>
       </main>
