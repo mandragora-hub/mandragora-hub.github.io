@@ -1,457 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="title">Royer Gómez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Royer's resume site. A well-known place to know more about me." name="description" />
 
-<head>
-  <meta charset="utf-8" />
-  <title>CV Royer Gomez</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta content="My cv's site" name="description" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
-  <!-- App favicon -->
-  <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- App css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet" />
 
-  <link href="plugins/filter/magnific-popup.css" rel="stylesheet" type="text/css" />
-  <link href="plugins/animated/headline.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
 
-  <!-- App css -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/icons.css" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
-</head>
+    <!-- Tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+  </head>
 
-<body>
-  <nav class="main-wraper mt-0 navbar navbar-expand-lg navbar-dark bg-navbar">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!--end navbar-toggler-->
-
-      <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="btn btn-blue btn-sm px-4" href="#" id="lnkPrint"><i class="'uil uil-print mr-2 font-16"></i>Print
-              my CV / save as PDF</a>
-          </li>
-        </ul>
-      </div>
-      <!--end collapse-->
-    </div>
-  </nav>
-  <!--end nav-->
-  <div class="main-wraper mt-0">
-    <section class="section-main bg-profile clip-profile" id="header">
-      <div class="zoo-profile">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-print-6 align-self-center mb-3 mb-lg-0">
-              <div class="zoo-profile-main">
-                <div class="zoo-profile-main-pic">
-                  <img src="images/main.jpg" alt="" class="rounded-circle mt-0" />
-                </div>
-                <!--end zoo-profile-main-pic-->
-                <div class="zoo-profile_user-detail">
-                  <h5 class="zoo-user-name">Royer Gomez</h5>
-                  <p class="cd-headline loading-bar">
-                    <span class="cd-words-wrapper no-print">
-                      <b class="is-visible">NodeJs</b>
-                      <b>C/C++</b>
-                      <b>SQL</b>
-                      <b>NextJS</b>
-                      <b>JavaScript</b>
-                      <b>Linux</b>
-                    </span>
-                  </p>
-                </div>
-                <!--end zoo-profile_user-detail-->
-              </div>
-              <!--end profile-main-pic-->
-            </div>
-            <div class="col-sm-4 col-print-4 ml-auto">
-              <ul class="list-unstyled personal-detail print">
-                <li>
-                  <i class="uil uil-github mt-2 mr-2"></i><a class="text-white" target="_blank"
-                    href="https://github.com/mandragora-gub"><b>Github:</b> Mandragora-hub</a>
-                </li>
-                <li>
-                  <i class="'uil uil-phone-volume mr-2"></i><a class="text-white" href="tel:+18298086111"> <b> Tel :</b>
-                    +1 829-808-6111</a>
-                </li>
-                <li>
-                  <i class="uil uil-envelope mt-2 mr-2"></i><a class="text-white"
-                    href="mailto:royer01gomez@gmail.com"><b>Mail :</b> royer01gomez@gmail.com</a>
-                </li>
-                <li><i class="uil uil-location mt-2 mr-2"></i><text class="text-white">Santo Domingo, Dominican Republic
-                  </text></li>
-                <button type="button" class="text-white no-print btn btn-sm btn-soft-primary">
-                  <a target="_blank" class="text-white" href="https://github.com/mandragora-hub">GitHub </a><i
-                    class="uil-github"></i>
-                </button>
-                <button type="button" class="text-white no-print btn btn-sm btn-soft-primary">
-                  <a target="_blank" class="text-white"
-                    href="https://www.linkedin.com/in/royer-gomez-8a21551b7/">LinkedIn </a><i class="uil-linkedin"></i>
-                </button>
-              </ul>
-            </div>
+  <body>
+    <div class="lg:container mx-auto px-4 flex w-full flex-wrap items-center justify-between overflow-hidden">
+      <section class="w-full text-center mt-12 mb-2 print:m-0 border-b-2 border-black" id="header">
+        <div class="my-4 text-6xl print:text-4xl">Royer <strong class="font-bold">Gómez</strong></div>
+        <div class="grid sm:grid-cols-3 sm:divide-x divide-black w-fit mx-auto">
+          <div class="text-nowrap m-px">
+            <i class="devicon-github-original mr-2"></i
+            ><a target="_blank" href="https://github.com/mandragora-gub">Mandragora-hub</a>
+          </div>
+          <div class="text-nowrap m-px">
+            <i class="'uil uil-phone-volume mr-2"></i
+            ><a href="tel:+18298086111"> <b> Tel :</b> +1 829-808-6111</a>
+          </div>
+          <div class="text-nowrap m-px">
+            <i class="uil uil-envelope ml-2 mr-2"></i
+            ><a href="mailto:royer01gomez@gmail.com"><b>Mail :</b  class="truncate">royer01gomez@gmail.com</a>
           </div>
         </div>
-      </div>
-      <!--end zoo-profile-->
-    </section>
+      </section>
 
-    <section class="section-md">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h4 class="header-title mb-1">About me:</h4>
-          </div>
-          <div class="">
-            <p>
-              My name is Royer Gomez and I'm a <b>software developer.</b><br />
-              I stand out in the area of web programming and mobile applications, embedded.
-              I'm passionate about development, learning new technologies like machine learning, embedded development
-              and Web3.
-              <br />
-              <br />
-              My most notable qualities are responsibility, gravitation, sobriety and love for science and knowledge.
+      <main class="flex flex-col print:flex-row lg:flex-row gap-8 mt-8">
+        <div class="flex flex-col gap-4 basis-3/4">
+          <section class="flex flex-col gap-y">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold mb-1" data-i18n="skills.title">Skills</h4>
+            <p class="text-balance">
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.backend.label"
+                >Back end development</span
+              >
+              <span class="print:text-xs">| Java • Python • Express • NodeJs</span>
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-md">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-print-6">
-            <div class="resume-icon">
-              <i class="uil uil-code"></i>
-              <h5 class="mt-n2">Programming Tools</h5>
-            </div>
-            <!--end resume-icon-->
-            <div class="timeline">
-              <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-nuxtjs-plain mr-2"></i>VueJS / Nuxt</h5>
-                  <p>
-                    Several projects using Vue::<br />
-                    - A bunch of interesting projects at MH. <br />
-                    - Front-end of <b><a target="_blank" href="https://litterarum.onrender.com/">Litterarum</a></b>,
-                    page used for download free pdf book.<br />
-                  </p>
-                </div>
+            <p class="text-balance">
+              <span class="text-lg print:text-sm uppercase font-bold truncate">CI/CD</span>
+              <span class="print:text-xs"> | Jenkins • Github Actions • Bash </span>
+            </p>
+            <p class="text-balance">
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.miscellaneous.label"
+                >Miscellaneous</span
+              >
+              <span class="print:text-xs"> | Azure • MySQL • Machine Learning • MongoDB • Docker </span>
+            </p>
+            <p class="text-balance">
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.scripting.label">Scripting</span>
+              <span class="print:text-xs">| Bash • Python </span>
+            </p>
+            <p class="text-balance">
+              <span class="text-lg print:text-sm uppercase font-bold truncate" data-i18n="skills.frontend.label"
+                >Front end development</span
+              >
+              <span class="print:text-xs">| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS </span>
+            </p>
+            <p class="text-balance">
+              <span class="text-lg print:text-sm uppercase font-bold" data-i18n="skills.soft.label">Soft Skill</span>
+              <span class="print:text-xs" data-i18n="skills.soft.value"> | Team player • Bias for action • Deliver results </span>
+            </p>
+          </section>
+          <section class="flex flex-col gap-y row-span-3">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold mb-1" data-i18n="experiences.title">Experiences</h4>
+            <div class="my-1">
+              <p class="font-bold text-balance">
+                <span class="text-lg print:text-sm uppercase truncate" data-i18n="experiences.job2.company">Ministry of Finance</span>
+                <span class="print:text-xs"> | Java • Jenkins • VueJs • Nginx * Docker </span>
+              </p>
+              <div data-i18n="experiences.job2.role">Devops Engineer | Oct 2021 - Present, Santo Domingo, RD</div>
+              <div class="my-1">
+                <a class="underline underline-offset-1" data-i18n="experiences.job2.exp.1.label"
+                  >Process automation, CI/CD structure and reducing errors</a
+                >
+                <ul class="list-disc list-inside">
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.1.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.1.content2"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.1.content3"></li>
+                </ul>
               </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-react-plain mr-2"></i>React / NextJS</h5>
-                  <p>
-                    Several projects using React::<br />
-                    - React/native projects during my 3rd year at Epitech<br />
-                    - Connected wine cellar project on AWS during my internship at MangroveAI with AWS backend.<br />
-                    - Currently working on
-                    <b><a target="_blank" href="https://www.redania.sbs">redania.sbs</a></b>
-                  </p>
-                </div>
+              <div class="my-1">
+                <a class="underline underline-offset-1" data-i18n="experiences.job2.exp.2.label">Culture change</a>
+                <ul class="list-disc list-inside">
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.2.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.2.content2"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.2.content3"></li>
+                </ul>
               </div>
-              <!--end time-item-->
-              <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-nodejs-plain mr-2"></i>NodeJs</h5>
-                  <p>
-                    - 6 Months as a backend developer at Media Revolution<br />
-                    using NodeJS, Typescript, PostgreSQL, and the ExpressJS<br />
-                    - Workshop carried out on the theme of artificial intelligence, development of a CLI in Node
-                    to interact with the OpenAI API
-                  </p>
-                </div>
-              </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-docker-plain mr-2"></i>DevOps</h5>
-                  <p>
-                    - Docker, Kubernetes, Bash, Jenkins, Gitlab, Github actions, Docker Swarm<br />
-                    - Habit of using and creating docker, CI environments <br />
-                  </p>
-                </div>
-              </div>
-              <div class="time-item no-print">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-bash-plain"></i>Bash</h5>
-                  <p>Basics of language, interest in the approach</p>
-                </div>
-              </div>
-              <div class="time-item no-print">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-linux-plain"></i>GNU/Linux</h5>
-                  <p>Daily use since 2017</p>
-                </div>
-              </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-typescript-plain mr-2"></i>Typescript</h5>
-                  <p class="no-print">
-                    Personal projects using React, NextJS, NodeJS, ExpressJS
-                  </p>
-                </div>
-              </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark"><i class="devicon-cplusplus-plain mr-2"></i>C/C++</h5>
-                  <p class="no-print">
-                    Interface design with Qt/Qml, and interface 2D RPG type game with the use of SFML bindings in C.
-                    Personal projects with Raspberry
-                    PI and Arduino
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-print-6">
-            <div class="resume-icon">
-              <i class="uil uil-suitcase-alt"></i>
-              <h5 class="mt-n2 mb-0">Professional experiences</h5>
-            </div>
-            <!--end resume-icon-->
-            <div class="timeline">
-              <!--end time-item-->
-              <div class="time-item">
-                <div class="item-info">
-                  <div class="font-14">October - Present</div>
-                  <h5 class="my-1 text-dark">
-                    <a target="_blank" href="https://www.hacienda.gob.do/">Ministerio De Hacienda - Devops Engineer</a>
-                  </h5>
-                  <p>I work with developers and the IT staff to oversee the code releases, and an understanding of both
-                    engineering and coding.<br /></p>
-                  <p class="no-print">
-                    - We use various tools to, from creating and implementing systems software to analyzing data to
-                    improve existing ones<br />
-                    - Use of the Docker, Jenkins, Bash<br />
-                    - Use of Java, Node, Nexus and some other tools<br />
-                    - Use of the OracleSQL & MongoDB library for the database<br />
-                  </p>
-                </div>
-              </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <div class="font-14">May - October 2021</div>
-                  <h5 class="my-1 text-dark">
-                    <a target="_blank" href="https://www.linkedin.com/company/media-revolution-srl">Media Revolution,
-                      SRL - Full Stack Developer</a>
-                  </h5>
-                  <p>Active participation in agile sprints, development of the main product in Node<br /></p>
-                  <p class="no-print">
-                    - Monorepo in Node, modular development in the form of dynamic imports, preparation for
-                    migration to metaclasses<br />
-                    - Use of the Next library for the development of the front-end<br />
-                    - Use of the PostgreSQL library for the database<br />
-                  </p>
-                </div>
-              </div>
-              <!-- <div class="ml-3 resume-icon no-print">
-                <i class="uil uil-github"></i>
-                <h5 class="mt-n2">Open source</h5>
-              </div>
-              <div class="time-item no-print">
-                <div class="item-info">
-                  <div class="font-14">Jui. 2020</div>
-                  <h5 class="my-1 text-dark">
-                    <a target="_blank" href="https://github.com/ajnart/flutter">Flutter app development</a>
-                  </h5>
-                  <p>Réalisations de nombreux projets durant mon cours de deux mois sur le framework Flutter</p>
-                </div>
+              <!-- <div class="my-1">
+                <a class="underline underline-offset-1" data-i18n="experiences.job2.exp.3.label"
+                  >Support in other areas</a
+                >
+                <ul class="list-disc list-inside">
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.3.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job2.exp.3.content2"></li>
+                </ul>
               </div> -->
-
-              <!--end time-item-->
-              <!-- <div class="time-item no-print">
-                <div class="item-info">
-                  <div class="font-14">Jan. 2016 - 2017</div>
-                  <h5 class="my-1 text-dark">
-                    <a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1902213098">Unreal
-                      Engine 4 Game Modding project</a>
-                  </h5>
-                  <p>
-                    Refonte du système de particules et des animations sur un mod du jeu ARK, en utilisant le SDK Ark
-                    sur UE4.
-                  </p>
-                </div>
-              </div> -->
-              <!--end time-item-->
-
-              <!-- <div class="time-item no-print">
-                <div class="item-info">
-                  <div class="font-14">2015 & 2018</div>
-                  <h5 class="my-1 text-dark">
-                    <a target="_blank" href="https://umod.org/plugins/balance-gui">Scripting C# et Lua</a>
-                  </h5>
-                  <p>
-                    Utilisation de C#, Lua, Java pour créer divers scripts sur des jeux vidéos (Minecraft/Garry's
-                    Mod/Rust) durant mon adoléscence
-                  </p>
-                </div>
-              </div> -->
-              <!--end time-item-->
             </div>
-            <!--end timeline-->
-          </div>
+            <div class="my-1">
+              <p class="text-balance">
+                <span class="text-lg print:text-sm uppercase font-bold truncate">Media Revolution </span>
+                <span class="print:text-xs">| NodeJs • PostgresSQL • Typescript • ReactJs</span>
+              </p>
+              <div>Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD</div>
+              <div class="my-1">
+                <ul class="list-disc list-inside">
+                  <li class="print:text-xs" data-i18n="experiences.job1.exp.1.content1"></li>
+                  <li class="print:text-xs" data-i18n="experiences.job1.exp.1.content2"></li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
-      </div>
-    </section>
-    <section class="section-md">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-print-6">
-            <div class="resume-icon">
-              <i class="uil uil-graduation-hat"></i>
-              <h5 class="mt-n2">Education</h5>
+        <div class="flex flex-col gap-4 basis-1/4">
+          <section class="flex flex-col gap-y-2">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold" data-i18n="education.title">Education</h4>
+            <div>
+              <h6 class="uppercase font-bold print:text-sm">Universidad Acción Pro Educación y Cultura (UNAPEC)</h6>
+              <p class="print:text-sm">B.S.Software Engineering | Santo Domingo, RD.</p>
             </div>
-            <!--end resume-icon-->
-            <div class="timeline">
-              <div class="time-item no-print">
-                <div class="item-info">
-                  <div class="font-14">April. - July 2021</div>
-                  <h5 class="my-1 text-dark">Cloud Computing. - Google Course</h5>
-                  <p>
-                    Complete 42-hour course on cloud Computing, hosted service, <br />
-                    IT infrastructure servers and virtual machines. <br />
-                    <a target="_blank"
-                      href="https://drive.google.com/file/d/1pNXnlAUo-WuhbCr3gQPsrP5EB5LDv9Hz/view?usp=sharing"><b>Certificate</b></a>
-                  </p>
-                </div>
-              </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <div class="font-14">2021</div>
-                  <h5 class="my-1 text-dark">APIs and Microservices. - Freecodecamp</h5>
-                  <p>
-                    Complete 300-hour course on the Express framework,<br>
-                    design patterns, state management and managing Packages with NPM. <br />
-                    <a target="_blank"
-                      href="https://www.freecodecamp.org/certification/fcc9a9e3e37-2c30-4871-9086-285b8e2107cb/apis-and-microservices"><b>Certificate</b></a>
-                  </p>
-                </div>
-              </div>
-              <div class="time-item">
-                <div class="item-info">
-                  <div class="font-14">2021</div>
-                  <h5 class="my-1 text-dark">Introduction to Web Development: HTML and CSS. - Google Course</h5>
-                  <p>
-                    Complete 80-hour course on web fundamental,<br>
-                    HTML,CSS and JavaScript, dynamic and interactive web pages. <br />
-                    <a target="_blank"
-                      href="https://drive.google.com/file/d/1i6vHoiSZtPS91ZeY4-04ABw8nyX_SWrD/view?usp=sharing"><b>1th
-                        Certificate</b></a> <br />
-                    <a target="_blank"
-                      href="https://drive.google.com/file/d/1q3OZFyh9nol-eHUi2VkTveIsCsaoWzjM/view?usp=sharing"><b>2do
-                        Certificate</b></a>
-                  </p>
-                </div>
-              </div>
-              <!--end time-item-->
-              <div class="time-item no-print">
-                <div class="item-info">
-                  <div class="font-14">2019 - 2024</div>
-                  <h5 class="my-1 text-dark">Unapec</h5>
-                  <p>
-                    Institute of Higher Studies. Professional training in software development processes. learning
-                    C/C++/SQL languages, setting working methods in TDD, project management.
-                  </p>
-                </div>
-              </div>
-
-              <div class="time-item">
-                <div class="item-info">
-                  <div class="font-14">2016</div>
-                  <h5 class="my-1 text-dark">Simon Orozco Technological Institute</h5>
-                  <p>Professional computer technician</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-print-6">
-            <div class="resume-icon">
-              <i class="uil uil-comment-heart"></i>
-              <h5 class="mt-n2">Soft skills and interests</h5>
-            </div>
-            <!--end resume-icon-->
-            <div class="timeline">
-              <h5 class="my-1 text-dark"><i class="uil uil-books mr-2"></i>Peoples and cultures</h5>
-              <div class="time-item">
-                <div class="item-info">
-                  <p>
-                    Historiographical study about the past of humanity<br />
-                    <b><a target="_blank" href="https://www.redania.sbs">Redania</a></b>
-                  </p>
-                </div>
-              </div>
-              <!-- <div class="time-item">
-                <div class="item-info">
-                  <h5 class="my-1 text-dark">Méthodes de travail</h5>
-                  <p>
-                    - Habitué au développement en TDD<br />
-                    - Organisation, rigueur, autonomie<br />
-                    - Méthode agile, scrum<br />
-                    - Habitué aux travaux de groupe grâce à ma formation à Epitech
-                  </p>
-                </div> -->
-            </div>
-            <div class="time-item">
-              <div class="item-info">
-                <h5 class="my-1 text-dark">Languages</h5>
-                <p>
-                  - Spanish : Native language<br />
-                  - English : Intermediate level
-                </p>
-              </div>
-            </div>
-            <!--end time-item-->
-          </div>
+          </section>
+          <!-- <section class="flex flex-col gap-y-2">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold">Certification</h4>
+            <a
+              class="hover:text-blue-900 hover:underline"
+              target="_blank"
+              href="https://www.freecodecamp.org/certification/fcc9a9e3e37-2c30-4871-9086-285b8e2107cb/back-end-development-and-apis"
+            >
+              <p>
+                <strong class="uppercase font-bold">FreeCodeCamps</strong>
+                | Back End Development and APIs | 2021 | Online
+              </p>
+            </a>
+            <a
+              class="hover:text-blue-900 hover:underline"
+              target="_blank"
+              href="https://drive.google.com/file/d/1pNXnlAUo-WuhbCr3gQPsrP5EB5LDv9Hz/view"
+            >
+              <p>
+                <strong class="uppercase font-bold">Google Course</strong>
+                | Cloud Computing | 2021 | Online
+              </p>
+            </a>
+            <a
+              class="hover:text-blue-900 hover:underline"
+              target="_blank"
+              href="https://drive.google.com/file/d/1q3OZFyh9nol-eHUi2VkTveIsCsaoWzjM/view"
+            >
+              <p>
+                <strong class="uppercase font-bold">Google Course</strong>
+                | Introduction to Web Development: HTML and CSS. | 2021 | Online
+              </p>
+            </a>
+          </section> -->
+          <section class="flex flex-col gap-y-2">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold" data-i18n="coursework.title">Coursework</h4>
+            <ul class="list-none print:text-sm">
+              <li>Data Structures and Algorithms</li>
+              <li>Developing Android Apps</li>
+              <li>Machine Learning</li>
+              <li>Data Mining</li>
+              <li>Applied Statistics</li>
+              <li>Linear Algebra</li>
+              <li>Differential Equation</li>
+            </ul>
+          </section>
+          <section class="flex flex-col gap-y-2">
+            <h4 class="text-2xl print:text-lg print:leading-none uppercase font-bold" data-i18n="interest.title">Interest</h4>
+            <p class="print:text-sm" data-i18n="interest.value">Traveling • Fitness • Nutrition</p>
+          </section>
         </div>
-      </div>
-  </div>
-  </section>
-
-  <section class="section-md thanks-text">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="text-center">Thank you!</h3>
-          <h5 class="text-center">
-            For more information, consult my CV as long as it is on the github page
-            <b><a target="_blank" href="https://mandragora-hub.github.io/">https://mandragora-hub.github.io/</a></b>
-          </h5>
-        </div>
-      </div>
+      </main>
     </div>
-  </section>
-  <footer class="footer-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <p class="copyright mb-0 py-4">2022 - Mandragora-hub</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--end footer-area-->
-  </div>
-  <!--end main-wraper-->
 
-  <!-- jQuery  -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="plugins/particles/particles.js"></script>
-  <script src="plugins/animated/headline.js"></script>
-  <script src="plugins/counter/jquery.counterup.min.js"></script>
-  <script src="plugins/counter/waypoints.min.js"></script>
-  <script src="plugins/filter/isotope.pkgd.min.js"></script>
-  <script src="plugins/filter/masonry.pkgd.min.js"></script>
-  <script src="plugins/filter/jquery.magnific-popup.min.js"></script>
-  <script src="plugins/particles/particles-init.js"></script>
-
-  <!-- App js -->
-  <script src="js/app.js"></script>
-</body>
-
+    <!-- App.Js -->
+    <script type="module" src="js/app.js"></script>
+  </body>
 </html>

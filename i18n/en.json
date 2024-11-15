@@ -1,0 +1,89 @@
+{
+  "title": "Royer Gómez",
+  "skills": {
+    "title": "skills",
+    "backend": {
+      "label": "Back end development",
+      "value": "| Java • Python • Express • NodeJs"
+    },
+    "ci/cd": {
+      "label": "CI/CD",
+      "value": "| Jenkins • Github Actions • Bash"
+    },
+    "miscellaneous": {
+      "label": "Miscellaneous",
+      "value": "| Azure • MySQL • Machine Learning • MongoDB • Docker"
+    },
+    "scripting": {
+      "label": "Scripting",
+      "value": "| Bash • Python"
+    },
+    "frontend": {
+      "label": "Front end development",
+      "value": "| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS"
+    },
+    "soft": {
+      "label": "Soft Skill",
+      "value": "| Team player • Bias for action • Deliver results"
+    }
+  },
+  "experiences": {
+    "title": "Experiences",
+    "job2": {
+      "company": "Ministry of Finance",
+      "skills": "| Java • Jenkins • VueJs • Nginx * Docker",
+      "role": "Devops Engineer | Oct 2021 - Present, Santo Domingo, RD",
+      "exp": {
+        "1": {
+          "label": "Process automation, CI/CD structure and reducing errors",
+          "content1": "We have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
+          "content2": "We improved the implementation of the existing DevOps strategy, thus reducing resource consumption and significantly improving deployment time. We moved from a monolithic strategy to a comprehensive strategy for CI/CD processes, which resulted in a better understanding by the technical staff.",
+          "content3": "We implemented the build, test and deployment processes using Jenkins and Docker, which allowed us an orderly continuous delivery and greater agility."
+        },
+        "2": {
+          "label": "Culture change",
+          "content1": "We introduced the staff to the devops culture which involved a better understanding of individual responsibilities and the organizational structure. In addition, we instructed the staff through workshops on topics related to the devops culture.",
+          "content2": "We created different internal products that aimed to assist developers and analysts in their technical tasks. Many of the products were aimed at guiding IT staff in their daily tasks, giving them more independence from bureaucratic processes, making application CI/CD processes transparent and allowing greater oversight of systems deployed in the development and test environment.",
+          "content3": "Creating custom scripts and tools to automate repetitive tasks and free up time for higher value activities."
+        },
+        "3": {
+          "label": "Support in other areas",
+          "content1": "I also had an important role as a Frontend Developer, responsible for designing and developing highly interactive user interfaces using Vue.js. I worked closely with Backend teams, developed in Java, to create scalable and robust web applications.",
+          "content2": "Our work methodology was based on Scrum, which allowed us to deliver value incrementally and adapt to changes in an agile way. We used Jira to manage the product backlog, track tasks and collaborate effectively within the team."
+        }
+      }
+    },
+    "job1": {
+      "company": "Media Revolution",
+      "skills": "| NodeJs • PostgresSQL • Typescript • ReactJs",
+      "role": "Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD",
+      "exp": {
+        "1": {
+          "content1": "We have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
+          "content2": "We improved the implementation of the existing DevOps strategy, thus reducing resource consumption and significantly improving deployment time. We moved from a monolithic strategy to a comprehensive strategy for CI/CD processes, which resulted in a better understanding by the technical staff."
+        }
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "1": {
+      "institution": "Universidad Acción Pro Educación y Cultura (UNAPEC)",
+      "mode": "B.S.Software Engineering | Santo Domingo, RD."
+    }
+  },
+  "coursework": {
+    "title": "Coursework",
+    "Data Structures and Algorithms": "Data Structures and Algorithms",
+    "Developing Android Apps": "Developing Android Apps",
+    "Machine Learning": "Machine Learning",
+    "Data Mining": "Data Mining",
+    "Applied Statistics": "Applied Statistics",
+    "Linear Algebra": "Linear Algebra",
+    "Differential Equation": "Differential Equation"
+  },
+  "interest": {
+    "title": "Interest",
+    "value": "Traveling • Fitness • Nutrition" 
+  }
+}

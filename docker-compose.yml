@@ -1,0 +1,17 @@
+services:
+  mandragora-hub.io:
+    container_name: mandragora-hub.io
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:80
+    # environment:
+    #   PORT: ${PORT}
+    #   BASE_URL: ${BASE_URL}
+    network_mode: bridge
+    develop:
+      watch:
+        - action: rebuild
+          path: .
+          target: /usr/share/nginx/html/
