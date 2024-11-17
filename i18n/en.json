@@ -59,8 +59,8 @@
       "role": "Fullstack Developer | Jul 2019 - Oct 2021, Santo Domingo, RD",
       "exp": {
         "1": {
-          "content1": "We have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
-          "content2": "We improved the implementation of the existing DevOps strategy, thus reducing resource consumption and significantly improving deployment time. We moved from a monolithic strategy to a comprehensive strategy for CI/CD processes, which resulted in a better understanding by the technical staff."
+          "content1": "I developed backend services for a real-time casino gaming platform using Typescript, GraphQL, and PostgreSQL.",
+          "content2": "On the client side, I worked with user interfaces (UI) and user experience (UX) using React/Next frameworks."
         }
       }
     }
@@ -84,6 +84,6 @@
   },
   "interest": {
     "title": "Interest",
-    "value": "Traveling • Fitness • Nutrition" 
+    "value": "Traveling • Fitness • Nutrition"
   }
 }
