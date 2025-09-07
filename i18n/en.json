@@ -3,7 +3,7 @@
   "skills": {
     "title": "skills",
     "backend": {
-      "label": "Back end development",
+      "label": "Backend development",
       "value": "| Java • Python • Express • NodeJs"
     },
     "ci/cd": {
@@ -19,7 +19,7 @@
       "value": "| Bash • Python"
     },
     "frontend": {
-      "label": "Front end development",
+      "label": "Frontend development",
       "value": "| ReactJs/NextJs • VueJs/Nuxt • JavaScript • Html • CSS"
     },
     "soft": {
@@ -30,13 +30,13 @@
   "experiences": {
     "title": "Experiences",
     "job2": {
-      "company": "Ministry of Finance",
+      "company": "Ministerio de hacienda y economía",
       "skills": "| Java • Jenkins • VueJs • Nginx * Docker",
       "role": "Devops Engineer | Oct 2021 - Present, Santo Domingo, RD",
       "exp": {
         "1": {
           "label": "Process automation, CI/CD structure and reducing errors",
-          "content1": "We have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
+          "content1": "I have worked hand in hand with the development team and the IT Infrastructure team in defining the CI/CD processes and in the general understanding of engineering and coding.",
           "content2": "We improved the implementation of the existing DevOps strategy, thus reducing resource consumption and significantly improving deployment time. We moved from a monolithic strategy to a comprehensive strategy for CI/CD processes, which resulted in a better understanding by the technical staff.",
           "content3": "We implemented the build, test and deployment processes using Jenkins and Docker, which allowed us an orderly continuous delivery and greater agility."
         },

@@ -30,13 +30,13 @@
   "experiences": {
     "title": "Experiencia",
     "job2": {
-      "company": "Ministerio de hacienda",
+      "company": "Ministerio de hacienda y economía",
       "skills": "| Java • Jenkins • VueJs • Nginx * Docker",
       "role": "Devops Engineer | Oct 2021 - Present, Santo Domingo, RD",
       "exp": {
         "1": {
           "label": "Automatización de procesos, estructura CI/CD y reducción de errores",
-          "content1": "Hemos trabajado de la mano con el equipo de desarrollo y el equipo de Infraestructura de TI en la definición de los procesos de CI/CD y en la comprensión general de la ingeniería y la codificación.",
+          "content1": "He trabajado de la mano con el equipo de desarrollo y el equipo de Infraestructura de TI en la definición de los procesos de CI/CD y en la comprensión general de la ingeniería y la codificación.",
           "content2": "Mejoramos la implementación de la estrategia DevOps existente, reduciendo así el consumo de recursos y mejorando significativamente el tiempo de implementación. Pasamos de una estrategia monolítica a una estrategia integral para los procesos de CI/CD, lo que resultó en una mejor comprensión por parte del personal técnico.",
           "content3": "Implementamos los procesos de build, test y deployment utilizando Jenkins y Docker, lo que nos permitió una entrega continua ordenada y mayor agilidad."
         },
